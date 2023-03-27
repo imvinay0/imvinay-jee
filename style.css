@@ -148,6 +148,9 @@ html{
 } 
 
 .section{
+    display: flex;
+    margin: auto;
+    max-width: 100%;
     padding: 10px;
     text-align: center;
 }
@@ -159,7 +162,6 @@ html{
     justify-content: center;
     max-width: 100%;
     margin: auto;
-   
 }
 
 .paras{
@@ -208,9 +210,6 @@ footer{
     margin: auto;
 }
 
-.burger{
-
-}
 
 .line{
     background-color: white;
@@ -279,6 +278,10 @@ footer{
     }
     .paras{
         padding: 0px;
+    }
+    .logo img{
+        height: 52px;
+        width: 100%;
     }
     
 }
